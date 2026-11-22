@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOM Fashion Store</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <div class="flex flex-col md:flex-row justify-between items-center px-8 py-5 bg-olivie text-white">
+        <h1 class="text-3xl font-bold">BLOOM.</h1>
+        <div class="flex flex-col md:flex-row gap-5 mt-4 md:mt-0">
+            <a href="#" class="hover:text-gray-200">Home</a>
+            <a href="#categories" class="hover:text-gray-200">Categories</a>
+            <a href="#products" class="hover:text-gray-200">Shop</a>
+            <a href="#about" class="hover:text-gray-200">About</a>
+            <a href="#contact" class="hover:text-gray-200">Contact</a>
+        </div>
+        <button class="bg-white text-olivie px-5 py-2 mt-4 md:mt-0 rounded">
+            🛒 Cart
+        </button>
+    </div>
+    <!-- Hero Section -->
+    <div class="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-cream">
+        <div class="md:w-1/2 text-center md:text-left">
+            <p class="text-olivie tracking-widest">
+                NEW COLLECTION 2026
+            </p>
+            <h1 class="text-4xl md:text-6xl font-bold text-olivie mt-4">
+                Discover Your Own Style.
+            </h1>
+            <p class="text-charcoal mt-5">
+                Explore the latest fashion trends and find
+                outfits that make you feel confident and beautiful.
+            </p>
+            <button class="bg-olivie text-white px-8 py-3 mt-6 rounded">
+                Shop Now
+            </button>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80"
+                alt="Elegant Neutral Fashion Collection"
+                class="w-full h-80 object-cover rounded-lg">
+        </div>
+    </div>
+    <!-- Categories Section -->
+    <div id="categories" class="px-8 py-14">
+        <h2 class="text-3xl font-bold text-olivie text-center">
+            Shop By Categories
+        </h2>
+        <p class="text-center text-charcoal mt-3 mb-10">
+            Explore our beautiful fashion collections.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-72 object-cover rounded-lg"
+                    alt="Women's Beige Fashion">
+                <h3 class="text-2xl font-bold text-olivie mt-4">Women</h3>
+                <p class="text-charcoal mt-2">Women's Collection</p>
+            </div>
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-72 object-cover rounded-lg"
+                    alt="Men's Neutral Fashion">
+                <h3 class="text-2xl font-bold text-olivie mt-4">Men</h3>
+                <p class="text-charcoal mt-2">Men's Collection</p>
+            </div>
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-72 object-cover rounded-lg"
+                    alt="Luxury Fashion Accessories">
+                <h3 class="text-2xl font-bold text-olivie mt-4">Accessories</h3>
+                <p class="text-charcoal mt-2">Complete Your Look</p>
+            </div>
+        </div>
+    </div>
+    <!-- Trending Products -->
+    <div id="products" class="bg-cream px-8 py-14">
+        <h2 class="text-3xl font-bold text-olivie text-center">
+            Trending Products
+        </h2>
+        <p class="text-center text-charcoal mt-3 mb-10">
+            Discover our most popular fashion items.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80"
+                    class="w-full h-64 object-cover"
+                    alt="Elegant Beige Dress">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-olivie">Elegant Dress</h3>
+                    <p class="text-charcoal mt-2">Rs. 3,500</p>
+                    <button class="bg-olivie text-white w-full py-2 mt-4 rounded">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+                    class="w-full h-64 object-cover"
+                    alt="Beige Casual Outfit">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-olivie">Casual Outfit</h3>
+                    <p class="text-charcoal mt-2">Rs. 2,800</p>
+                    <button class="bg-olivie text-white w-full py-2 mt-4 rounded">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+                    class="w-full h-64 object-cover"
+                    alt="Minimal Summer Dress">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-olivie">Summer Wear</h3>
+                    <p class="text-charcoal mt-2">Rs. 4,000</p>
+                    <button class="bg-olivie text-white w-full py-2 mt-4 rounded">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80"
+                    class="w-full h-64 object-cover"
+                    alt="Luxury Handbag and Accessories">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-olivie">Fashion Accessories</h3>
+                    <p class="text-charcoal mt-2">Rs. 1,500</p>
+                    <button class="bg-olivie text-white w-full py-2 mt-4 rounded">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- New Arrivals -->
+    <div class="px-8 py-14">
+        <div class="flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80"
+                    alt="New Arrivals Neutral Fashion"
+                    class="w-full h-80 object-cover rounded-lg">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <p class="text-olivie tracking-widest">JUST ARRIVED</p>
+                <h2 class="text-4xl font-bold text-olivie mt-4">
+                    New Season, New Looks.
+                </h2>
+                <p class="text-charcoal mt-4">
+                    Refresh your wardrobe with our latest collection.
+                    Discover beautiful designs and timeless fashion.
+                </p>
+                <button class="bg-olivie text-white px-8 py-3 mt-6 rounded">
+                    Explore Collection
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Special Offers -->
+    <div class="bg-olivie text-white text-center px-8 py-14">
+        <p class="tracking-widest">SPECIAL OFFER</p>
+        <h2 class="text-5xl font-bold mt-4">30% OFF</h2>
+        <h3 class="text-2xl mt-3">
+            On Selected Fashion Items
+        </h3>
+        <p class="mt-4">
+            Upgrade your wardrobe with your favourite styles.
+        </p>
+        <button class="bg-white text-olivie px-8 py-3 mt-6 rounded">
+            Shop The Sale
+        </button>
+    </div>
+    <!-- About Section -->
+    <div id="about" class="bg-cream text-center px-8 py-14">
+        <h2 class="text-3xl font-bold text-olivie">
+            About BLOOM
+        </h2>
+        <p class="text-charcoal max-w-2xl mx-auto mt-5">
+            BLOOM brings you stylish, elegant and beautiful clothing
+            at affordable prices. We believe fashion is a way to express
+            yourself and feel confident every day.
+        </p>
+    </div>
+    <!-- Newsletter -->
+    <div class="px-8 py-14 text-center">
+        <h2 class="text-3xl font-bold text-olivie">
+            Join Our Newsletter
+        </h2>
+        <p class="text-charcoal mt-3">
+            Get updates about new arrivals and special discounts.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-3 mt-7">
+            <input type="email"
+                placeholder="Enter your email"
+                class="px-5 py-3 border border-olivie rounded w-full sm:w-80">
+            <button class="bg-olivie text-white px-7 py-3 rounded">
+                Subscribe
+            </button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="contact" class="bg-olivie text-white px-8 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h2 class="text-3xl font-bold">BLOOM.</h2>
+                <p class="mt-4">
+                    Discover simple, elegant and beautiful fashion.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Quick Links</h3>
+                <div class="flex flex-col gap-3 mt-4">
+                    <a href="#">Home</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#products">Shop</a>
+                    <a href="#about">About Us</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Contact Us</h3>
+                <p class="mt-4">Email: bloom@example.com</p>
+                <p class="mt-3">Phone: +92 300 1234567</p>
+            </div>
+        </div>
+        <hr class="border-white mt-10">
+        <p class="text-center mt-6">
+            © 2026 BLOOM Fashion Store.
+        </p>
+    </div>
+</body>
+</html>
